@@ -1,0 +1,24 @@
+{
+  "name": "typed-rpc",
+  "version": "1.0.0",
+  "description": "setup simple remote procedure calling using ts types only",
+  "license": "MIT",
+  "author": "ABukSwienty",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bench:types": "node scripts/bench-types.mjs",
+    "bench:gen": "node scripts/gen-bench.mjs"
+  },
+  "devDependencies": {
+    "@types/lodash-es": "^4.17.12",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@trpc/client": "^11.19.0",
+    "@trpc/server": "^11.19.0",
+    "lodash-es": "^4.18.1",
+    "zod": "^4.6.7"
+  }
+}

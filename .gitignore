@@ -1,0 +1,12 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+*.tsbuildinfo
+
+# Generated benchmark sources (recreate with `npm run bench:gen`)
+bench/generated/
+
+# OS / editor
+.DS_Store
